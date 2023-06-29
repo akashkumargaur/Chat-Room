@@ -1,0 +1,65 @@
+body,html{
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    background-color: #a266a2;
+}
+header{
+    background-color: #545aa7;
+    padding: 1px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.logo h2{
+    padding-left: 5px;
+}
+section{
+    border: 3px solid #ece9ec;
+    width: 50%;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 15px;
+    height: 350px;
+    /* max-height: fit-content; */
+    position: relative;
+}
+section h2{
+    color: #ede6e6;
+    font-family: monospace,'Courier New', Courier ;
+    text-align: center;
+}
+.messagebox{
+    height: 100%;
+    overflow: auto;
+}
+.message-right{
+    float: right;
+    clear: both;
+}
+.message-left{
+    float: left;
+    clear: both;
+}
+.message-center{
+    text-align: center;
+    clear: both;
+}
+.message-sendBox form{
+    position: absolute;
+    bottom: 0px;
+    width:90%;
+    padding-left: 8%;
+    padding-right: 5%;
+}
+form input{
+    width: 85%;
+    border-radius: 5px;
+    border: none;
+}

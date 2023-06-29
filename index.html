@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChatApp</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script defer src="./socket.io/socket.io.js"></script>
+    <script defer src="./client.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img  src="./Assets/logo.png" height="60px">
+            <h2>My chat App</h2>
+        </div> 
+    </header>
+    <section>
+        <h2>Your Chat Room</h2>
+        <div class="messagebox" id="messagebox">
+            <!-- <div class="message-center">Akash join the party</div>
+            <div class="message-right">Akash:hello</div>
+            <div class="message-left">gollu : or bhai bta</div>
+            <div class="message-center">gollu left the party</div> -->
+        </div>
+        <div class="message-sendBox">
+            <form action="#" id="submit">
+                <input type="text" id="send_msg" placeholder="Enter text"/>
+                <button>send</button>
+            </form>
+        </div>   
+    </section>
+</body>
+</html>
